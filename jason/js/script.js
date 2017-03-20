@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded",
           .sendGetRequest("data/name.json", 
             function (res) {
             
-                       
+              var message= "answer: "
            var message1 = res.firstName+res.lastName;
               if (res.addition) {
              
